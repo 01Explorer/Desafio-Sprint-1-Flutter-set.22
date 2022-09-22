@@ -25,3 +25,7 @@ Perguntas:
 6. Com o Git Você pode propor mudanças (adicioná-las ao Index)  usando um comando. Qual é esse comando?  
 
     O comando para propor mudanças, adicionar ao index, é o git add que conta com a especificação do arquivo que será adicionado ou com o caractere * para adicionar todas as alterações ao Index.
+
+7. O que é o Branch master e para que serve?
+
+    O branch master é a primeira ramificação criada quando iniciamos o repositório e nela ficarão guardados todos os nossos commits, nodo por nodo, caso não optemos por mudar de branch. Assim, facilita com que possamos ver todas as alterações realizadas dentro desta "linha" desde sua criação até seu estado atual, podendo até mesmo comparar as diferenças entre as versões. 
