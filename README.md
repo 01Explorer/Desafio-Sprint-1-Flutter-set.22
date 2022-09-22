@@ -33,3 +33,7 @@ Perguntas:
 8. Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo ?
 
     Para atualizar um repositório local com o que está no servidor, utilizamos o git pull e para realizar o merge de um branch com o nosso branch ativo, usamos o git merge especificando o branch com o qual iremos fazer o merge.
+
+9. Qual a diferença entre Git e Github?
+
+    A grande diferença entre ambos, é que o Git consiste no sistema de versionamento de arquivos propriamente dito, enquanto o Github é uma plataforma que utiliza o Git por baixo, para permitir que as pessoas armazenem seus projetos e trabalhem de forma colaborativa nos seus repositórios criados com o Git.
