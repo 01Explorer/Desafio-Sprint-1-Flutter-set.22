@@ -29,3 +29,7 @@ Perguntas:
 7. O que é o Branch master e para que serve?
 
     O branch master é a primeira ramificação criada quando iniciamos o repositório e nela ficarão guardados todos os nossos commits, nodo por nodo, caso não optemos por mudar de branch. Assim, facilita com que possamos ver todas as alterações realizadas dentro desta "linha" desde sua criação até seu estado atual, podendo até mesmo comparar as diferenças entre as versões. 
+
+8. Quais são os comandos usados para atualizar um repositório local e fazer merge de um outro branch ao seu branch ativo ?
+
+    Para atualizar um repositório local com o que está no servidor, utilizamos o git pull e para realizar o merge de um branch com o nosso branch ativo, usamos o git merge especificando o branch com o qual iremos fazer o merge.
