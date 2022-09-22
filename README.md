@@ -21,3 +21,7 @@ Perguntas:
 5. Qual o comando para criação de um novo repositório no GIT?
     
     O comando para criar um novo repositório no GIT é o: git init.
+
+6. Com o Git Você pode propor mudanças (adicioná-las ao Index)  usando um comando. Qual é esse comando?  
+
+    O comando para propor mudanças, adicionar ao index, é o git add que conta com a especificação do arquivo que será adicionado ou com o caractere * para adicionar todas as alterações ao Index.
