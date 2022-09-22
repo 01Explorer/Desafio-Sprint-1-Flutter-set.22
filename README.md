@@ -13,3 +13,7 @@ Perguntas:
 3. O que é GIT?
 
     O GIT é um sistema de controle de versões distribuído, o qual além de permitir o fácil compartilhamento de arquivos, códigos, etc., facilita e possibilita que múltiplas pessoas trabalhem, ao mesmo tempo, em um único arquivo e permite o acompanhamento do histórico desses arquivos os quais podem ser recuperados caso seja necessário. 
+
+4. O que é um Scrum Product Owner?
+
+    O Product Owner ou PO, dentro da metodologia do Scrum, representa aquele que vai fazer o contato com o cliente do projeto para entender quais são suas prioridades e necessidades dentro daquilo que está sendo desenvolvido. Assim, o PO tem uma função essencial para o funcionamento das rotinas, a função de alimentar e atualizar o Product Backlog conforme as necessidades do cliente, priorizando as estórias que devem ser desenvolvidas e refinando estas para que sejam levadas à reunião de Planning e possam ser facilmente quebradas em tarefas com as quais a equipe de desenvolvimento vai estimar o esforço necessário para desenvolver e então irá adicionar à Sprint Backlog. Ademais, cabe ao PO esclarecer toda e qualquer dúvida que surja por parte dos desenvolvedores sobre os requisitos desenhados pelo cliente. Portanto, de forma breve, cabe ao Product Owner realizar todo o tipo de troca de informação com o cliente, tornando claro e fácil pra equipe de desenvolvedores entender os pontos que irão agregar mais valor à entrega e fornecendo a eles toda a informação necessária.
