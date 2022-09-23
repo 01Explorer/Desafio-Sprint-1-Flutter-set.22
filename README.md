@@ -45,3 +45,10 @@ Perguntas:
 11. Qual o status code que pode ser usado na criação de um novo usuário?
 
     O status code que pode ser utilizado na criação de um novo usuário são os da família 200 que contemplam os status de resposta para o sucesso na requisição, todavia, mais especificamente, o status code que pode ser utilizado é o 201 que corrobora que a requisição foi processada pelo servidor e em função disso um recurso foi criado.
+
+12. Quais são os três status code que podem ser utilizados para realizar o delete?
+
+    Os três status code que podem ser utilizado com o método Delete são:
+    - 200 (OK) para quando a requisição foi realizada e ainda retorna uma mensagem descrevendo o status da ação;
+    - 202 (Accepted) para quando a requisição foi aceita mas ainda não foi realizada;
+    - 204 (No Content) para quando a requisição foi realizada e nenhuma informação adicional deve ser fornecida;
