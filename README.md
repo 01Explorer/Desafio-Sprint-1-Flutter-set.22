@@ -61,3 +61,7 @@ Perguntas:
     3xx - É a família do redirecionamento e indica que ações devem ser realizadas pelo cliente para preencher a/as requisições enviadas;
     4xx - Os códigos começados em 4 indicam a existência de algum erro na requisição feita pelo cliente;
     5xx - Os iniciados em 5 indicam que houve um erro por parte do servidor ao processar ou responder a requisição.
+
+14. O que é a linguagem de programação Dart?
+
+    Dart, além de ser uma linguagem criada e mantida pela Google, é a base para a utilização do framework de desenvolvimento Flutter. Como outras grandes linguagens presentes no mercado, seu paradigma de programação de baseia na Orientação a objetos.
