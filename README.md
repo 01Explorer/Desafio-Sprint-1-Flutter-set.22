@@ -41,3 +41,7 @@ Perguntas:
 10. Quais os dois verbos http que podemos utilizar para realizar um update? Explique a diferença entre eles.
 
     Os dois verbos http que utilizamos para atualizar uma informação são: o Put e o Patch, todavia apesar de realizarem a mesma ação eles possuem uma clara diferença. Enquanto que, para atualizar uma informação via método PUT é necessário, além do ID que será modificada, que sejam passados todos os parâmetros do objeto, mesmo que estes não tenham sido alterados, utilizando o método PATCH, é necessário apenas enviar a requisição com a ID e com os atributos que foram devidamente modificados, não sendo necessário repassar aqueles os quais não sofrerem nenhum tipo de alteração.
+
+11. Qual o status code que pode ser usado na criação de um novo usuário?
+
+    O status code que pode ser utilizado na criação de um novo usuário são os da família 200 que contemplam os status de resposta para o sucesso na requisição, todavia, mais especificamente, o status code que pode ser utilizado é o 201 que corrobora que a requisição foi processada pelo servidor e em função disso um recurso foi criado.
