@@ -69,3 +69,7 @@ Perguntas:
 15. O que é o Flutter?
 
     Flutter é um framework de desenvolvimento com base na linguagem de programação Dart. Por conseguinte, em função de ser um framework, o Flutter nos oferece diversos recursos já construídos que facilitam e aceleram o processo de desenvolvimento principalmente naquilo que diz respeito às plataformas mobile. Nesse sentido, podemos ressaltar que apesar do Flutter trabalhar com Dart, ao exportar os projetos criados tanto para IOS quanto Android, o próprio framework realiza a “tradução” do código para a linguagem nativa de cada plataforma, otimizando a performance dessa aplicação em ambos sistemas operacionais. Ademais, devemos salientar que, apesar de ser voltado principalmente para o desenvolvimento mobile, o Flutter já pode ser usado para desenvolvimento de projetos Web e Windows.
+
+16. Como inicio um novo projeto no Flutter?
+
+    Para iniciar um projeto em Flutter é bem simples, todavia inicialmente precisamos garantir que temos instalado o SDK do Flutter o qual já vem com o SDK do Dart. Posteriormente, basta entrar na sua IDE e selecionar novo projeto -> criar projeto flutter, ou caso ache mais fácil, podemos ir no terminal e digitar flutter create <nome do projeto> assim o próprio framework irá se encarregar de criar um projeto no local (pasta/diretório) em que foi chamado.
