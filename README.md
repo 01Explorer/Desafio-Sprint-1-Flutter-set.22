@@ -65,3 +65,7 @@ Perguntas:
 14. O que é a linguagem de programação Dart?
 
     Dart, além de ser uma linguagem criada e mantida pela Google, é a base para a utilização do framework de desenvolvimento Flutter. Como outras grandes linguagens presentes no mercado, seu paradigma de programação de baseia na Orientação a objetos.
+
+15. O que é o Flutter?
+
+    Flutter é um framework de desenvolvimento com base na linguagem de programação Dart. Por conseguinte, em função de ser um framework, o Flutter nos oferece diversos recursos já construídos que facilitam e aceleram o processo de desenvolvimento principalmente naquilo que diz respeito às plataformas mobile. Nesse sentido, podemos ressaltar que apesar do Flutter trabalhar com Dart, ao exportar os projetos criados tanto para IOS quanto Android, o próprio framework realiza a “tradução” do código para a linguagem nativa de cada plataforma, otimizando a performance dessa aplicação em ambos sistemas operacionais. Ademais, devemos salientar que, apesar de ser voltado principalmente para o desenvolvimento mobile, o Flutter já pode ser usado para desenvolvimento de projetos Web e Windows.
