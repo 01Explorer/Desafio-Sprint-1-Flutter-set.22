@@ -81,3 +81,7 @@ Perguntas:
 18. Qual a diferença entre uma variável final e uma variável var?
 
     Em Dart, uma variável final só pode ter seu valor alterado uma única vez, ou seja, ela pode aparecer em duas ou uma chamada, uma sendo declarada e então uma sendo atribuída ou caso já seja iniciada com um valor, independente da forma que ela aparece, após ser atribuído um valor, ela não poderá mais ser alterada durante o código. Paralelamente a isso, temos a variável com o prefixo var que explicita que ela pode ser alterada livremente durante o código. Portanto, a grande diferença entre elas está na capacidade de ser alterada enquanto uma só pode receber o valor uma vez, a outra pode sofrer alterações conforme necessidade. Ademais, caso não seja adicionado um prefixo final ou const à variável, o próprio framework irá trata-la como var.
+
+19. Qual a diferença entre um Statefull e Stateless widget?
+
+    A grande diferença entre esses dois widgets está na forma como o Flutter irá lidar com eles, no caso do Statefull o framework fica “olhando” para aquele widget visto que ele permite que alterações ocorram dentro dele, sejam de variáveis, sejam de estados que terão que ser rebuildados. Já no Stateless widget, o Flutter otimiza o seu processamento visto que ele entende que dentro daquele widget não haverá alterações não sendo mais necessário ficar “olhando” para ele após ele ser buildado. Portanto, de forma simples, enquanto o Statefull é capaz de alterar o estado da aplicação, o Stateless não consegue fazer essa ação.
