@@ -93,3 +93,7 @@ Perguntas:
 21. Qual a finalidade dos métodos InitState e dispose?
 
     Apesar de ambos os métodos realizarem ações definidas pelo código, cada um tem uma finalidade diferente para a qual é utilizada. Enquanto o InitState é chamado para executar linhas de ações antes do Flutter buildar uma tela, o dispose é chamado para também executar ações só que antes do Flutter descartar uma tela, ou seja, antes de fecha-la. Por conseguinte, a título de exemplo, o InitState é utilizado para carregar informações antes de abrir uma tela, seja dados de uma API ou conexões com sistemas externos tais como o Firebase, já o dispose utiliza da sua capacidade para deixar de executar ações que estão utilizando o poder computacional do hardware para então otimizar o processo do App.
+
+22. Conta pra gente como foi sua experiência na Sprint#01 do programa de bolsa @Flutter-set.22 e quais suas expectativas a partir de agora:
+
+    Acredito que nessa Sprint#01 já consegui agregar bastante conhecimento sobre a nossa trilha de Flutter, contudo sei que para eu fixar esse conteúdo, tenho que colocar em prática aquilo que estou aprendendo. Dessa forma, essa questão já baseia a minha expectativa para as próximas sprints, aprofundar mais meu conhecimento nas diversas áreas de desenvolvimento como, por exemplo, os testes de qualidade e receber desafios os quais vão me desenvolver cada vez mais para que seja possível entregar um resultado exemplar em cada Sprint.
