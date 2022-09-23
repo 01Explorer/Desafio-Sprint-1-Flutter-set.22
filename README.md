@@ -73,3 +73,7 @@ Perguntas:
 16. Como inicio um novo projeto no Flutter?
 
     Para iniciar um projeto em Flutter é bem simples, todavia inicialmente precisamos garantir que temos instalado o SDK do Flutter o qual já vem com o SDK do Dart. Posteriormente, basta entrar na sua IDE e selecionar novo projeto -> criar projeto flutter, ou caso ache mais fácil, podemos ir no terminal e digitar flutter create <nome do projeto> assim o próprio framework irá se encarregar de criar um projeto no local (pasta/diretório) em que foi chamado.
+
+17. Quais ferramentas podemos utilizar para a criação de novos apps usando Flutter?
+
+    Para a criação de novos apps utilizando o Flutter, podemos fazer uso de qualquer IDE (Integrated Development Environment) desde que essa tenha suporte à linguagem de programação Dart. Alguns exemplos de ferramentas que podem ser utilizadas são as seguintes: VsCode, Intelij e Android Studio. Ademais, cabe ressaltar que podemos e é recomendado utilizarmos o Android Emulator, o qual é baixado junto com o Android Studio, para que possamos ver como está sendo o desenvolvimento do nosso aplicativo.
