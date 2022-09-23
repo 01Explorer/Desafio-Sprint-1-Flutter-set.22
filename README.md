@@ -77,3 +77,7 @@ Perguntas:
 17. Quais ferramentas podemos utilizar para a criação de novos apps usando Flutter?
 
     Para a criação de novos apps utilizando o Flutter, podemos fazer uso de qualquer IDE (Integrated Development Environment) desde que essa tenha suporte à linguagem de programação Dart. Alguns exemplos de ferramentas que podem ser utilizadas são as seguintes: VsCode, Intelij e Android Studio. Ademais, cabe ressaltar que podemos e é recomendado utilizarmos o Android Emulator, o qual é baixado junto com o Android Studio, para que possamos ver como está sendo o desenvolvimento do nosso aplicativo.
+
+18. Qual a diferença entre uma variável final e uma variável var?
+
+    Em Dart, uma variável final só pode ter seu valor alterado uma única vez, ou seja, ela pode aparecer em duas ou uma chamada, uma sendo declarada e então uma sendo atribuída ou caso já seja iniciada com um valor, independente da forma que ela aparece, após ser atribuído um valor, ela não poderá mais ser alterada durante o código. Paralelamente a isso, temos a variável com o prefixo var que explicita que ela pode ser alterada livremente durante o código. Portanto, a grande diferença entre elas está na capacidade de ser alterada enquanto uma só pode receber o valor uma vez, a outra pode sofrer alterações conforme necessidade. Ademais, caso não seja adicionado um prefixo final ou const à variável, o próprio framework irá trata-la como var.
