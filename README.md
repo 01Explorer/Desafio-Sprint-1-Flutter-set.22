@@ -51,4 +51,13 @@ Perguntas:
     Os três status code que podem ser utilizado com o método Delete são:
     - 200 (OK) para quando a requisição foi realizada e ainda retorna uma mensagem descrevendo o status da ação;
     - 202 (Accepted) para quando a requisição foi aceita mas ainda não foi realizada;
-    - 204 (No Content) para quando a requisição foi realizada e nenhuma informação adicional deve ser fornecida;
+    - 204 (No Content) para quando a requisição foi realizada e nenhuma informação adicional deve ser fornecida.
+
+13. Exemplifique para que serve os status code http 1xx, 2xx, 3xx, 4xx e 5xx. De uma forma macro (geral)!
+
+    De forma geral, os status code de cada família tem a seguinte função:
+    1xx - São os códigos de informação, retornam uma resposta temporária indicando o status da conexão ou progresso da requisição para processar e enviar uma resposta;
+    2xx - Esses códigos indicam que a operação foi bem sucedida;
+    3xx - É a família do redirecionamento e indica que ações devem ser realizadas pelo cliente para preencher a/as requisições enviadas;
+    4xx - Os códigos começados em 4 indicam a existência de algum erro na requisição feita pelo cliente;
+    5xx - Os iniciados em 5 indicam que houve um erro por parte do servidor ao processar ou responder a requisição.
